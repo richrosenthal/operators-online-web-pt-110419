@@ -15,11 +15,10 @@ end
 
 def not_safe?(speed)
   answer = true
-	if speed < 40 || speed > 60
-	answer = true
-	else
-	  answer = false
-	 end
+	speed < 40 || speed > 60 ? answer = true : answer = false
+	answer
+	  
+	
 end
 	
 
